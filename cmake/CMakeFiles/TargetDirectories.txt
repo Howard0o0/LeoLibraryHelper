@@ -1,0 +1,3 @@
+/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/rebuild_cache.dir
+/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir
+/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/edit_cache.dir
