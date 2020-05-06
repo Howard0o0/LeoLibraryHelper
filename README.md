@@ -1,0 +1,3 @@
+dependency:
+	openssl
+	boost

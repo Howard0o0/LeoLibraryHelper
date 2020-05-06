@@ -345,6 +345,10 @@ string
 /home/howard/work/LeoLibraryHelper/src/student.cc
 student.h
 /home/howard/work/LeoLibraryHelper/src/student.h
+muduo/base/Logging.h
+/home/howard/work/LeoLibraryHelper/src/muduo/base/Logging.h
+rapidjson/document.h
+/home/howard/work/LeoLibraryHelper/src/rapidjson/document.h
 util.h
 /home/howard/work/LeoLibraryHelper/src/util.h
 
