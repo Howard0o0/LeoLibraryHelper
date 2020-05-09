@@ -1,9 +1,9 @@
 message StuInfo{
-	required string m_stuId = "";
-	required string m_passwd = "";
-	required int m_seatNo = -1;
-	required int m_roomId = -1;
-	required string m_startTime ="";	  
-	required string m_endTime = "";
-	required string m_date = "";
+	required string stuId = 1;
+	required string passwd = 2;
+	required int32 seatNo = 3;
+	required int32 roomId = 4;
+	required string startTime =5;	  
+	required string endTime = 6;
+	required string date = 7;
 }

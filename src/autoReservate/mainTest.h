@@ -3,8 +3,7 @@
 
 void test_multiReservate();
 void test_multiThread();
-// extern "C" {
 void test_redis();
-// }
+void test_protobuf();
 
 #endif

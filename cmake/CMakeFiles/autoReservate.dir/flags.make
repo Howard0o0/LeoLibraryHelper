@@ -6,5 +6,5 @@ CXX_FLAGS = -g -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/howard/work/LeoLibraryHelper/third-party-libs/muduo/include -I/usr/local/include -I/home/howard/work/LeoLibraryHelper/cmake/../third-party-libs/curl/include -I/home/howard/work/LeoLibraryHelper/cmake -I/home/howard/work/LeoLibraryHelper/cmake/../third-party-libs/rapidJson/include -I/home/howard/work/LeoLibraryHelper/cmake/../third-party-libs/hiredis/include 
+CXX_INCLUDES = -I/home/howard/work/LeoLibraryHelper/third-party-libs/muduo/include -I/usr/local/include -I/home/howard/work/LeoLibraryHelper/cmake/../third-party-libs/curl/include -I/home/howard/work/LeoLibraryHelper/cmake -I/home/howard/work/LeoLibraryHelper/cmake/../third-party-libs/rapidJson/include -I/home/howard/work/LeoLibraryHelper/cmake/../third-party-libs/hiredis/include -I/home/howard/work/LeoLibraryHelper/cmake/../third-party-libs/protobuf/include 
 

@@ -1,6 +1,7 @@
 #include "mainTest.h"
 #include "boost/bind.hpp"
 #include "curl/curl.h"
+#include "stuInfo.pb.h"
 extern "C" {
 #include "hiredis/hiredis.h"
 }
@@ -58,24 +59,6 @@ void test_multiReservate() {
 	stuPool.addStu(lz);
 	stuPool.loginAndPresetSeatId();
 	stuPool.reservate();
-
-	// howard.login();
-	// LOG_INFO << "howard seat Id:" << howard.presetSeatId();
-	// zsq.login();
-	// LOG_INFO << "zsq get seatId: " << zsq.presetSeatId();
-	// LOG_INFO << "lz login:" << lz.login();
-	// LOG_INFO << "lz seat Id:" << lz.presetSeatId();
-
-	// LOG_INFO << howard.reservate();
-	// LOG_INFO << zsq.reservate();
-
-	// g_stuPool.addStudent(howard);
-	// g_stuPool.addStudent(zsq);
-	// g_stuPool.addStudent(lz);
-	// muduo::ThreadPool pool("reservate pool");
-	// pool.start(5);
-	// pool.run(boost::bind(taskReservate));
-	// pool.run(boost::bind(taskReservate));
 }
 
 // void test_json() {
@@ -200,4 +183,20 @@ void test_redis() {
 	// 	LOG_ERROR << "redisCommand error : " << reply->str;
 	// for (int i = 0; i < reply->elements; i++)
 	// 	LOG_INFO << reply->element[ i ]->str;
+}
+
+void test_protobuf() {
+	GOOGLE_PROTOBUF_VERIFY_VERSION;
+	StuInfo s1;
+	s1.set_stuid("2019282110139");
+	s1.set_passwd("17871X");
+	s1.set_roomid(101);
+	s1.set_seatno(6);
+	s1.set_starttime("540");
+	s1.set_endtime("600");
+	s1.set_date("2020-05-09");
+
+	std::string serializedStr;
+	s1.SerializeToString(&serializedStr);
+	LOG_INFO << "serializedStr:" << serializedStr;
 }

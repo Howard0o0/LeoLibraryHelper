@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o"
   "/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o"
   "/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.o"
   "/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o"
   "/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o"
   "/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o"
@@ -23,6 +24,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../third-party-libs/rapidJson/include"
   "../third-party-libs/hiredis/include"
+  "../third-party-libs/protobuf/include"
   )
 
 # Targets to which this target links.

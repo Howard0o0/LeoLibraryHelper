@@ -11,7 +11,8 @@ int main() {
 	// test_student();
 	// test_multiThread();
 	// test_multiReservate();
-	test_redis();
+	// test_redis();
+	test_protobuf();
 
 	return 0;
 }

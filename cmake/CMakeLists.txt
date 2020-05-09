@@ -59,15 +59,16 @@ include_directories (${CURL_PATH}/include)
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${THIRD_LIBS_PATH}/rapidJson/include)
 include_directories(${THIRD_LIBS_PATH}/hiredis/include)
+include_directories(${THIRD_LIBS_PATH}/protobuf/include)
 
-link_directories(${CURL_PATH}/lib ${THIRD_LIBS_PATH}/hiredis/lib)
+link_directories(${CURL_PATH}/lib ${THIRD_LIBS_PATH}/hiredis/lib ${THIRD_LIBS_PATH}/protobuf/lib)
 LINK_LIBRARIES(curl )
 
 aux_source_directory(../src/autoReservate SRCS_AUTORESERVATE)
 
 add_executable(autoReservate ${SRCS_AUTORESERVATE}) 
 
-target_link_libraries(autoReservate ${muduo_net} ${muduo_base} pthread rt hiredis)
+target_link_libraries(autoReservate ${muduo_net} ${muduo_base} pthread rt hiredis protobuf)
 
 
 
