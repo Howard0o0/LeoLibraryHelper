@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/howard/work/LeoLibraryHelper/src/httpRequest.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o"
-  "/home/howard/work/LeoLibraryHelper/src/leoApi.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o"
-  "/home/howard/work/LeoLibraryHelper/src/libcurl.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o"
-  "/home/howard/work/LeoLibraryHelper/src/mainReservate.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o"
-  "/home/howard/work/LeoLibraryHelper/src/student.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o"
-  "/home/howard/work/LeoLibraryHelper/src/util.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,6 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../third-party-libs/curl/include"
   "."
   "../third-party-libs/rapidJson/include"
+  "../third-party-libs/hiredis/include"
   )
 
 # Targets to which this target links.

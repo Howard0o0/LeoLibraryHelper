@@ -57,173 +57,225 @@ include CMakeFiles/autoReservate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/autoReservate.dir/flags.make
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o: CMakeFiles/autoReservate.dir/flags.make
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o: /home/howard/work/LeoLibraryHelper/src/httpRequest.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o -c /home/howard/work/LeoLibraryHelper/src/httpRequest.cc
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o: CMakeFiles/autoReservate.dir/flags.make
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o: /home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o -c /home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/httpRequest.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.i
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.i
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/httpRequest.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.s
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.s
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o.requires:
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o.requires:
 
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o.requires
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o.requires
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o.requires
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o.provides.build
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o.provides
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o.requires
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o.provides.build
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o.provides
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o
-
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o: CMakeFiles/autoReservate.dir/flags.make
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o: /home/howard/work/LeoLibraryHelper/src/leoApi.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o -c /home/howard/work/LeoLibraryHelper/src/leoApi.cc
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/leoApi.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.i
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/leoApi.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.s
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o.requires:
-
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o.requires
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o.requires
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o.provides.build
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o.provides
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o
 
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o: CMakeFiles/autoReservate.dir/flags.make
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o: /home/howard/work/LeoLibraryHelper/src/libcurl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o -c /home/howard/work/LeoLibraryHelper/src/libcurl.cc
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o: CMakeFiles/autoReservate.dir/flags.make
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o: /home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o -c /home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/libcurl.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.i
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.i
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/libcurl.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.s
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.s
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o.requires:
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o.requires:
 
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o.requires
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o.requires
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o.requires
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o.provides.build
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o.provides
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o.requires
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o.provides.build
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o.provides
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o
-
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o: CMakeFiles/autoReservate.dir/flags.make
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o: /home/howard/work/LeoLibraryHelper/src/mainReservate.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o -c /home/howard/work/LeoLibraryHelper/src/mainReservate.cc
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/mainReservate.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.i
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/mainReservate.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.s
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o.requires:
-
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o.requires
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o.requires
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o.provides.build
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o.provides
-
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o
 
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o: CMakeFiles/autoReservate.dir/flags.make
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o: /home/howard/work/LeoLibraryHelper/src/student.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o -c /home/howard/work/LeoLibraryHelper/src/student.cc
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o: CMakeFiles/autoReservate.dir/flags.make
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o: /home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o -c /home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/student.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.i
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.i
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/student.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.s
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.s
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o.requires:
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o.requires:
 
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o.requires
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o.requires
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o.requires
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o.provides.build
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o.provides
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o.requires
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o.provides.build
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o.provides
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o
 
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o: CMakeFiles/autoReservate.dir/flags.make
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o: /home/howard/work/LeoLibraryHelper/src/util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o -c /home/howard/work/LeoLibraryHelper/src/util.cc
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o: CMakeFiles/autoReservate.dir/flags.make
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o: /home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o -c /home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/util.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.i
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.i
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/util.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.s
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.s
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o.requires:
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o.requires:
 
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o.requires
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o.requires
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o.requires
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o.provides.build
-.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o.provides
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o.requires
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o.provides.build
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o.provides
 
-CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o
+
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o: CMakeFiles/autoReservate.dir/flags.make
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o: /home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o -c /home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.i
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o.requires:
+
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o.requires
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o.requires
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o.provides.build
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o.provides
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o
+
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o: CMakeFiles/autoReservate.dir/flags.make
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o: /home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o -c /home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.i
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.s
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o.requires:
+
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o.requires
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o.requires
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o.provides.build
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o.provides
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o
+
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o: CMakeFiles/autoReservate.dir/flags.make
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o: /home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o -c /home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.i
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.s
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o.requires:
+
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o.requires
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o.requires
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o.provides.build
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o.provides
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o
+
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o: CMakeFiles/autoReservate.dir/flags.make
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o: /home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o -c /home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.i
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.requires:
+
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.requires
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.requires
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.provides.build
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.provides
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o
 
 
 # Object files for target autoReservate
 autoReservate_OBJECTS = \
-"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o" \
-"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o" \
-"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o" \
-"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o" \
-"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o" \
-"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o"
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o" \
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o" \
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o" \
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o" \
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o" \
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o" \
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o" \
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o"
 
 # External object files for target autoReservate
 autoReservate_EXTERNAL_OBJECTS =
 
-bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o
-bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o
-bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o
-bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o
-bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o
-bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o
+bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o
+bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o
+bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o
+bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o
+bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o
+bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o
+bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o
+bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o
 bin/autoReservate: CMakeFiles/autoReservate.dir/build.make
 bin/autoReservate: /home/howard/work/LeoLibraryHelper/third-party-libs/muduo/lib/libmuduo_net.a
 bin/autoReservate: /home/howard/work/LeoLibraryHelper/third-party-libs/muduo/lib/libmuduo_base.a
 bin/autoReservate: CMakeFiles/autoReservate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin/autoReservate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable bin/autoReservate"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/autoReservate.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -231,12 +283,14 @@ CMakeFiles/autoReservate.dir/build: bin/autoReservate
 
 .PHONY : CMakeFiles/autoReservate.dir/build
 
-CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o.requires
-CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o.requires
-CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o.requires
-CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o.requires
-CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o.requires
-CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o.requires
+CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o.requires
+CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o.requires
+CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o.requires
+CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o.requires
+CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o.requires
+CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o.requires
+CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o.requires
+CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.requires
 
 .PHONY : CMakeFiles/autoReservate.dir/requires
 

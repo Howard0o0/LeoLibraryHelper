@@ -1,0 +1,9 @@
+message StuInfo{
+	required string m_stuId = "";
+	required string m_passwd = "";
+	required int m_seatNo = -1;
+	required int m_roomId = -1;
+	required string m_startTime ="";	  
+	required string m_endTime = "";
+	required string m_date = "";
+}

@@ -123,167 +123,221 @@ autoReservate/fast:
 	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/build
 .PHONY : autoReservate/fast
 
-home/howard/work/LeoLibraryHelper/src/httpRequest.o: home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.o: home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/httpRequest.o
-
-# target to build an object file
-home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o
-.PHONY : home/howard/work/LeoLibraryHelper/src/httpRequest.cc.o
-
-home/howard/work/LeoLibraryHelper/src/httpRequest.i: home/howard/work/LeoLibraryHelper/src/httpRequest.cc.i
-
-.PHONY : home/howard/work/LeoLibraryHelper/src/httpRequest.i
-
-# target to preprocess a source file
-home/howard/work/LeoLibraryHelper/src/httpRequest.cc.i:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.i
-.PHONY : home/howard/work/LeoLibraryHelper/src/httpRequest.cc.i
-
-home/howard/work/LeoLibraryHelper/src/httpRequest.s: home/howard/work/LeoLibraryHelper/src/httpRequest.cc.s
-
-.PHONY : home/howard/work/LeoLibraryHelper/src/httpRequest.s
-
-# target to generate assembly for a file
-home/howard/work/LeoLibraryHelper/src/httpRequest.cc.s:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/httpRequest.cc.s
-.PHONY : home/howard/work/LeoLibraryHelper/src/httpRequest.cc.s
-
-home/howard/work/LeoLibraryHelper/src/leoApi.o: home/howard/work/LeoLibraryHelper/src/leoApi.cc.o
-
-.PHONY : home/howard/work/LeoLibraryHelper/src/leoApi.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.o
 
 # target to build an object file
-home/howard/work/LeoLibraryHelper/src/leoApi.cc.o:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.o
-.PHONY : home/howard/work/LeoLibraryHelper/src/leoApi.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o
 
-home/howard/work/LeoLibraryHelper/src/leoApi.i: home/howard/work/LeoLibraryHelper/src/leoApi.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.i: home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.i
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/leoApi.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.i
 
 # target to preprocess a source file
-home/howard/work/LeoLibraryHelper/src/leoApi.cc.i:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.i
-.PHONY : home/howard/work/LeoLibraryHelper/src/leoApi.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.i
 
-home/howard/work/LeoLibraryHelper/src/leoApi.s: home/howard/work/LeoLibraryHelper/src/leoApi.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.s: home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.s
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/leoApi.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.s
 
 # target to generate assembly for a file
-home/howard/work/LeoLibraryHelper/src/leoApi.cc.s:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/leoApi.cc.s
-.PHONY : home/howard/work/LeoLibraryHelper/src/leoApi.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.s
 
-home/howard/work/LeoLibraryHelper/src/libcurl.o: home/howard/work/LeoLibraryHelper/src/libcurl.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.o: home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/libcurl.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.o
 
 # target to build an object file
-home/howard/work/LeoLibraryHelper/src/libcurl.cc.o:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.o
-.PHONY : home/howard/work/LeoLibraryHelper/src/libcurl.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.o
 
-home/howard/work/LeoLibraryHelper/src/libcurl.i: home/howard/work/LeoLibraryHelper/src/libcurl.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.i: home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.i
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/libcurl.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.i
 
 # target to preprocess a source file
-home/howard/work/LeoLibraryHelper/src/libcurl.cc.i:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.i
-.PHONY : home/howard/work/LeoLibraryHelper/src/libcurl.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.i
 
-home/howard/work/LeoLibraryHelper/src/libcurl.s: home/howard/work/LeoLibraryHelper/src/libcurl.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.s: home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.s
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/libcurl.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.s
 
 # target to generate assembly for a file
-home/howard/work/LeoLibraryHelper/src/libcurl.cc.s:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/libcurl.cc.s
-.PHONY : home/howard/work/LeoLibraryHelper/src/libcurl.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.cc.s
 
-home/howard/work/LeoLibraryHelper/src/mainReservate.o: home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.o: home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/mainReservate.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.o
 
 # target to build an object file
-home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o
-.PHONY : home/howard/work/LeoLibraryHelper/src/mainReservate.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.o
 
-home/howard/work/LeoLibraryHelper/src/mainReservate.i: home/howard/work/LeoLibraryHelper/src/mainReservate.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.i: home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.i
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/mainReservate.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.i
 
 # target to preprocess a source file
-home/howard/work/LeoLibraryHelper/src/mainReservate.cc.i:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.i
-.PHONY : home/howard/work/LeoLibraryHelper/src/mainReservate.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.i
 
-home/howard/work/LeoLibraryHelper/src/mainReservate.s: home/howard/work/LeoLibraryHelper/src/mainReservate.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.s: home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.s
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/mainReservate.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.s
 
 # target to generate assembly for a file
-home/howard/work/LeoLibraryHelper/src/mainReservate.cc.s:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/mainReservate.cc.s
-.PHONY : home/howard/work/LeoLibraryHelper/src/mainReservate.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.cc.s
 
-home/howard/work/LeoLibraryHelper/src/student.o: home/howard/work/LeoLibraryHelper/src/student.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.o: home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/student.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.o
 
 # target to build an object file
-home/howard/work/LeoLibraryHelper/src/student.cc.o:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.o
-.PHONY : home/howard/work/LeoLibraryHelper/src/student.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.o
 
-home/howard/work/LeoLibraryHelper/src/student.i: home/howard/work/LeoLibraryHelper/src/student.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.i: home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.i
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/student.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.i
 
 # target to preprocess a source file
-home/howard/work/LeoLibraryHelper/src/student.cc.i:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.i
-.PHONY : home/howard/work/LeoLibraryHelper/src/student.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.i
 
-home/howard/work/LeoLibraryHelper/src/student.s: home/howard/work/LeoLibraryHelper/src/student.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.s: home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.s
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/student.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.s
 
 # target to generate assembly for a file
-home/howard/work/LeoLibraryHelper/src/student.cc.s:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/student.cc.s
-.PHONY : home/howard/work/LeoLibraryHelper/src/student.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.cc.s
 
-home/howard/work/LeoLibraryHelper/src/util.o: home/howard/work/LeoLibraryHelper/src/util.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.o: home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/util.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.o
 
 # target to build an object file
-home/howard/work/LeoLibraryHelper/src/util.cc.o:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.o
-.PHONY : home/howard/work/LeoLibraryHelper/src/util.cc.o
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o
 
-home/howard/work/LeoLibraryHelper/src/util.i: home/howard/work/LeoLibraryHelper/src/util.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.i: home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.i
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/util.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.i
 
 # target to preprocess a source file
-home/howard/work/LeoLibraryHelper/src/util.cc.i:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.i
-.PHONY : home/howard/work/LeoLibraryHelper/src/util.cc.i
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.i
 
-home/howard/work/LeoLibraryHelper/src/util.s: home/howard/work/LeoLibraryHelper/src/util.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.s: home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s
 
-.PHONY : home/howard/work/LeoLibraryHelper/src/util.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.s
 
 # target to generate assembly for a file
-home/howard/work/LeoLibraryHelper/src/util.cc.s:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/util.cc.s
-.PHONY : home/howard/work/LeoLibraryHelper/src/util.cc.s
+home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s
+
+home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.o: home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.o
+
+# target to build an object file
+home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o
+
+home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.i: home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.i
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.i
+
+# target to preprocess a source file
+home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.i
+
+home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.s: home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.s
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.s
+
+# target to generate assembly for a file
+home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.s
+
+home/howard/work/LeoLibraryHelper/src/autoReservate/student.o: home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/student.o
+
+# target to build an object file
+home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o
+
+home/howard/work/LeoLibraryHelper/src/autoReservate/student.i: home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.i
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/student.i
+
+# target to preprocess a source file
+home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.i
+
+home/howard/work/LeoLibraryHelper/src/autoReservate/student.s: home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.s
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/student.s
+
+# target to generate assembly for a file
+home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.s
+
+home/howard/work/LeoLibraryHelper/src/autoReservate/util.o: home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/util.o
+
+# target to build an object file
+home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o
+
+home/howard/work/LeoLibraryHelper/src/autoReservate/util.i: home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.i
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/util.i
+
+# target to preprocess a source file
+home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.i
+
+home/howard/work/LeoLibraryHelper/src/autoReservate/util.s: home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/util.s
+
+# target to generate assembly for a file
+home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s
 
 # Help Target
 help:
@@ -294,24 +348,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... autoReservate"
 	@echo "... edit_cache"
-	@echo "... home/howard/work/LeoLibraryHelper/src/httpRequest.o"
-	@echo "... home/howard/work/LeoLibraryHelper/src/httpRequest.i"
-	@echo "... home/howard/work/LeoLibraryHelper/src/httpRequest.s"
-	@echo "... home/howard/work/LeoLibraryHelper/src/leoApi.o"
-	@echo "... home/howard/work/LeoLibraryHelper/src/leoApi.i"
-	@echo "... home/howard/work/LeoLibraryHelper/src/leoApi.s"
-	@echo "... home/howard/work/LeoLibraryHelper/src/libcurl.o"
-	@echo "... home/howard/work/LeoLibraryHelper/src/libcurl.i"
-	@echo "... home/howard/work/LeoLibraryHelper/src/libcurl.s"
-	@echo "... home/howard/work/LeoLibraryHelper/src/mainReservate.o"
-	@echo "... home/howard/work/LeoLibraryHelper/src/mainReservate.i"
-	@echo "... home/howard/work/LeoLibraryHelper/src/mainReservate.s"
-	@echo "... home/howard/work/LeoLibraryHelper/src/student.o"
-	@echo "... home/howard/work/LeoLibraryHelper/src/student.i"
-	@echo "... home/howard/work/LeoLibraryHelper/src/student.s"
-	@echo "... home/howard/work/LeoLibraryHelper/src/util.o"
-	@echo "... home/howard/work/LeoLibraryHelper/src/util.i"
-	@echo "... home/howard/work/LeoLibraryHelper/src/util.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/leoApi.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/libcurl.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/mainReservate.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/student.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/student.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/student.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/util.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/util.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/util.s"
 .PHONY : help
 
 

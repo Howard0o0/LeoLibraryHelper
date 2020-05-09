@@ -20,7 +20,7 @@ set(CXX_FLAGS
  -Wall
  -Wextra
  # -m32
- -Werror
+ #-Werror
  -Wconversion
  -Wno-unused-parameter
  -Wold-style-cast
@@ -58,19 +58,16 @@ include_directories(${Boost_INCLUDE_DIRS})
 include_directories (${CURL_PATH}/include)
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${THIRD_LIBS_PATH}/rapidJson/include)
+include_directories(${THIRD_LIBS_PATH}/hiredis/include)
 
-link_directories(${CURL_PATH}/lib)
-LINK_LIBRARIES(curl)
+link_directories(${CURL_PATH}/lib ${THIRD_LIBS_PATH}/hiredis/lib)
+LINK_LIBRARIES(curl )
 
-aux_source_directory(../src SRCS)
+aux_source_directory(../src/autoReservate SRCS_AUTORESERVATE)
 
-add_executable(autoReservate ${SRCS}) 
-#add_executable(client ../src/client.cc)
-target_link_libraries(autoReservate ${muduo_net})
-target_link_libraries(autoReservate ${muduo_base})
-target_link_libraries(autoReservate pthread rt)
-#target_link_libraries(client ${muduo_net})
-#target_link_libraries(client ${muduo_base})
-#target_link_libraries(client pthread rt)
+add_executable(autoReservate ${SRCS_AUTORESERVATE}) 
+
+target_link_libraries(autoReservate ${muduo_net} ${muduo_base} pthread rt hiredis)
+
 
 
