@@ -9,9 +9,6 @@ endif()
 set (MUDUO_PATH "../third-party-libs/muduo")
 set (CURL_PATH "../third-party-libs/curl")
 set(THIRD_LIBS_PATH "../third-party-libs")
-#if(NOT MUDUO_PATH)
-#  set(MUDUO_PATH "/home/$ENV{USER}/build/${CMAKE_BUILD_TYPE}-install")
-#endif()
 
 set(CXX_FLAGS
  -g

@@ -12,7 +12,8 @@ int main() {
 	// test_multiThread();
 	// test_multiReservate();
 	// test_redis();
-	test_protobuf();
+	// test_protobuf();
+	test_protobuf_redis();
 
 	return 0;
 }

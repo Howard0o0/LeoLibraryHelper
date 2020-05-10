@@ -188,15 +188,80 @@ void test_redis() {
 void test_protobuf() {
 	GOOGLE_PROTOBUF_VERIFY_VERSION;
 	StuInfo s1;
+	s1.set_stuid("2016301110055");
+	s1.set_passwd("173722");
+	s1.set_roomid(101);
+	s1.set_seatno(8);
+	s1.set_starttime("540");
+	s1.set_endtime("600");
+	s1.set_date("2020-05-10");
+
+	char serializedStr[ 512 ];
+	s1.SerializeToArray(serializedStr, s1.ByteSize());
+
+	StuInfo s2;
+	s2.ParseFromArray(serializedStr, s1.ByteSize());
+	LOG_INFO << s2.stuid();
+}
+
+void test_protobuf_redis() {
+	GOOGLE_PROTOBUF_VERIFY_VERSION;
+	StuInfo s1;
 	s1.set_stuid("2019282110139");
 	s1.set_passwd("17871X");
 	s1.set_roomid(101);
 	s1.set_seatno(6);
 	s1.set_starttime("540");
 	s1.set_endtime("600");
-	s1.set_date("2020-05-09");
+	s1.set_date("2020-05-10");
 
-	std::string serializedStr;
-	s1.SerializeToString(&serializedStr);
-	LOG_INFO << "serializedStr:" << serializedStr;
+	StuInfo s2;
+	s2.set_stuid("2016301110055");
+	s2.set_passwd("173722");
+	s2.set_roomid(101);
+	s2.set_seatno(8);
+	s2.set_starttime("540");
+	s2.set_endtime("600");
+	s2.set_date("2020-05-10");
+
+	char serializedStr[ 512 ];
+	s1.SerializeToArray(serializedStr, s1.ByteSize());
+
+	redisContext* c = redisConnect("127.0.0.1", 9900);
+	if (c == NULL || c->err) {
+		if (c) {
+			printf("Error: %s\n", c->errstr);
+			// handle error
+		}
+		else {
+			printf("Can't allocate redis context\n");
+		}
+	}
+	LOG_INFO << "redis connected";
+
+	struct redisReply* reply = NULL;
+	reply			 = ( redisReply* )redisCommand(c, "AUTH %s", "howard5279");
+	freeReplyObject(reply);
+
+	/* insert */
+	reply = ( redisReply* )redisCommand(c, "SADD tommorrow %b", serializedStr, s1.ByteSize());
+	LOG_INFO << "reply type:" << reply->type;
+	freeReplyObject(reply);
+	s2.SerializeToArray(serializedStr, s2.ByteSize());
+	reply = ( redisReply* )redisCommand(c, "SADD tommorrow %b", serializedStr, s2.ByteSize());
+	LOG_INFO << "reply type:" << reply->type;
+	freeReplyObject(reply);
+
+	/* read */
+	reply		   = ( redisReply* )redisCommand(c, "SMEMBERS tommorrow");
+	uint32_t reply_len = reply->elements;
+	for (uint32_t i = 0; i < reply_len; i++) {
+		struct redisReply* tmp_reply = reply->element[ i ];
+		StuInfo		   tmpStuInfo;
+		if (tmpStuInfo.ParseFromArray(tmp_reply->str, tmp_reply->len))
+			;
+		LOG_INFO << tmpStuInfo.stuid() << "," << tmpStuInfo.passwd();
+		else LOG_ERROR << "parse error";
+		freeReplyObject(tmp_reply);
+	}
 }
