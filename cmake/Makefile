@@ -258,33 +258,6 @@ home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s:
 	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s
 .PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.s
 
-home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.o: home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.o
-
-.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.o
-
-# target to build an object file
-home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.o:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.o
-.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.o
-
-home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.i: home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.i
-
-.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.i
-
-# target to preprocess a source file
-home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.i:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.i
-.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.i
-
-home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.s: home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.s
-
-.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.s
-
-# target to generate assembly for a file
-home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.s:
-	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.s
-.PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.s
-
 home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.o: home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o
 
 .PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.o
@@ -393,6 +366,33 @@ home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s:
 	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s
 .PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s
 
+home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.o: home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.o
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.o
+
+# target to build an object file
+home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.o
+
+home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.i: home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.i
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.i
+
+# target to preprocess a source file
+home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.i
+
+home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.s: home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.s
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.s
+
+# target to generate assembly for a file
+home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -417,9 +417,6 @@ help:
 	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.o"
 	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.i"
 	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.s"
-	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.o"
-	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.i"
-	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.s"
 	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.o"
 	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.i"
 	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.s"
@@ -432,6 +429,9 @@ help:
 	@echo "... home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.o"
 	@echo "... home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.i"
 	@echo "... home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/publicUtil/stuInfo.pb.s"
 .PHONY : help
 
 
