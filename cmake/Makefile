@@ -366,6 +366,33 @@ home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s:
 	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s
 .PHONY : home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.s
 
+home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.o: home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.o
+
+# target to build an object file
+home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o
+
+home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.i: home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.i
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.i
+
+# target to preprocess a source file
+home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.i:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.i
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.i
+
+home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.s: home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s
+
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.s
+
+# target to generate assembly for a file
+home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s:
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s
+.PHONY : home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,6 +429,9 @@ help:
 	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/util.o"
 	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/util.i"
 	@echo "... home/howard/work/LeoLibraryHelper/src/autoReservate/util.s"
+	@echo "... home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.o"
+	@echo "... home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.i"
+	@echo "... home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.s"
 .PHONY : help
 
 

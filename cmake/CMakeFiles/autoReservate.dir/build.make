@@ -273,6 +273,30 @@ CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate
 CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o
 
 
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o: CMakeFiles/autoReservate.dir/flags.make
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o: /home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o -c /home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc > CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.i
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc -o CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.s
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o.requires:
+
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o.requires
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o.provides: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o.requires
+	$(MAKE) -f CMakeFiles/autoReservate.dir/build.make CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o.provides.build
+.PHONY : CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o.provides
+
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o.provides.build: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o
+
+
 # Object files for target autoReservate
 autoReservate_OBJECTS = \
 "CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/httpRequest.cc.o" \
@@ -283,7 +307,8 @@ autoReservate_OBJECTS = \
 "CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.cc.o" \
 "CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o" \
 "CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o" \
-"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o"
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o" \
+"CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o"
 
 # External object files for target autoReservate
 autoReservate_EXTERNAL_OBJECTS =
@@ -297,11 +322,12 @@ bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelpe
 bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o
 bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o
 bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o
+bin/autoReservate: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o
 bin/autoReservate: CMakeFiles/autoReservate.dir/build.make
 bin/autoReservate: /home/howard/work/LeoLibraryHelper/third-party-libs/muduo/lib/libmuduo_net.a
 bin/autoReservate: /home/howard/work/LeoLibraryHelper/third-party-libs/muduo/lib/libmuduo_base.a
 bin/autoReservate: CMakeFiles/autoReservate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin/autoReservate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable bin/autoReservate"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/autoReservate.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -318,6 +344,7 @@ CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/
 CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o.requires
 CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o.requires
 CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o.requires
+CMakeFiles/autoReservate.dir/requires: CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o.requires
 
 .PHONY : CMakeFiles/autoReservate.dir/requires
 

@@ -18,9 +18,9 @@ set(CXX_FLAGS
  -Wextra
  # -m32
  #-Werror
- -Wconversion
+ #-Wconversion
  -Wno-unused-parameter
- -Wold-style-cast
+ #-Wold-style-cast
  -Woverloaded-virtual
  -Wpointer-arith
  -Wshadow
@@ -57,13 +57,16 @@ include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${THIRD_LIBS_PATH}/rapidJson/include)
 include_directories(${THIRD_LIBS_PATH}/hiredis/include)
 include_directories(${THIRD_LIBS_PATH}/protobuf/include)
+include_directories(../src/publicUtil)
+include_directories(../src/autoReservate)
 
 link_directories(${CURL_PATH}/lib ${THIRD_LIBS_PATH}/hiredis/lib ${THIRD_LIBS_PATH}/protobuf/lib)
 LINK_LIBRARIES(curl )
 
 aux_source_directory(../src/autoReservate SRCS_AUTORESERVATE)
+aux_source_directory(../src/publicUtil SRCS_PUBLICUTIL)
 
-add_executable(autoReservate ${SRCS_AUTORESERVATE}) 
+add_executable(autoReservate ${SRCS_AUTORESERVATE} ${SRCS_PUBLICUTIL}) 
 
 target_link_libraries(autoReservate ${muduo_net} ${muduo_base} pthread rt hiredis protobuf)
 

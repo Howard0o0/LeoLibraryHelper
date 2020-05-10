@@ -1,6 +1,7 @@
 #include "mainTest.h"
 #include "boost/bind.hpp"
 #include "curl/curl.h"
+#include "redisTool.h"
 #include "stuInfo.pb.h"
 extern "C" {
 #include "hiredis/hiredis.h"
@@ -169,11 +170,10 @@ void test_redis() {
 	}
 	LOG_INFO << "redis connected";
 
-	struct people p1 = { .m_name = "howard", .m_age = 22 };
-	struct people p2 = { .m_name = "zsq", .m_age = 20 };
-
 	struct redisReply* reply = NULL;
 	reply			 = ( redisReply* )redisCommand(c, "AUTH %s", "howard5279");
+	if (reply->type == REDIS_REPLY_STATUS && strstr(reply->str, "OK") != NULL)
+		LOG_INFO << "status:" << reply->str;
 	freeReplyObject(reply);
 	// reply = ( struct redisReply* )redisCommand(c, "SADD peoples %s",
 	// 					   reinterpret_cast< std::string >(p1));
@@ -183,6 +183,36 @@ void test_redis() {
 	// 	LOG_ERROR << "redisCommand error : " << reply->str;
 	// for (int i = 0; i < reply->elements; i++)
 	// 	LOG_INFO << reply->element[ i ]->str;
+}
+void test_redisTool() {
+	RedisTool rt("127.0.0.1", 9900, "howard5279");
+	LOG_INFO << "connect:" << rt.connect();
+
+	StuInfo s1;
+	s1.set_stuid("2019282110139");
+	s1.set_passwd("17871X");
+	s1.set_roomid(101);
+	s1.set_seatno(6);
+	s1.set_starttime("540");
+	s1.set_endtime("600");
+	s1.set_date("2020-05-10");
+	StuInfo s2;
+	s2.set_stuid("2016301110055");
+	s2.set_passwd("173722");
+	s2.set_roomid(101);
+	s2.set_seatno(6);
+	s2.set_starttime("540");
+	s2.set_endtime("600");
+	s2.set_date("2020-05-10");
+
+	LOG_INFO << rt.setAdd("tommorrow", s1);
+	LOG_INFO << rt.setAdd("tommorrow", s2);
+	std::vector< StuInfo > stuInfoUnion;
+	bool		       res = rt.setGet("tommorrow", stuInfoUnion);
+	if (!res)
+		return;
+	for (auto it = stuInfoUnion.begin(); it != stuInfoUnion.end(); it++)
+		LOG_INFO << (*it).stuid() << "," << (*it).passwd();
 }
 
 void test_protobuf() {
@@ -197,10 +227,10 @@ void test_protobuf() {
 	s1.set_date("2020-05-10");
 
 	char serializedStr[ 512 ];
-	s1.SerializeToArray(serializedStr, s1.ByteSize());
+	s1.SerializeToArray(serializedStr, s1.ByteSizeLong());
 
 	StuInfo s2;
-	s2.ParseFromArray(serializedStr, s1.ByteSize());
+	s2.ParseFromArray(serializedStr, s1.ByteSizeLong());
 	LOG_INFO << s2.stuid();
 }
 
@@ -225,7 +255,7 @@ void test_protobuf_redis() {
 	s2.set_date("2020-05-10");
 
 	char serializedStr[ 512 ];
-	s1.SerializeToArray(serializedStr, s1.ByteSize());
+	s1.SerializeToArray(serializedStr, s1.ByteSizeLong());
 
 	redisContext* c = redisConnect("127.0.0.1", 9900);
 	if (c == NULL || c->err) {
@@ -244,11 +274,13 @@ void test_protobuf_redis() {
 	freeReplyObject(reply);
 
 	/* insert */
-	reply = ( redisReply* )redisCommand(c, "SADD tommorrow %b", serializedStr, s1.ByteSize());
+	reply = ( redisReply* )redisCommand(c, "SADD tommorrow %b", serializedStr,
+					    s1.ByteSizeLong());
 	LOG_INFO << "reply type:" << reply->type;
 	freeReplyObject(reply);
-	s2.SerializeToArray(serializedStr, s2.ByteSize());
-	reply = ( redisReply* )redisCommand(c, "SADD tommorrow %b", serializedStr, s2.ByteSize());
+	s2.SerializeToArray(serializedStr, s2.ByteSizeLong());
+	reply = ( redisReply* )redisCommand(c, "SADD tommorrow %b", serializedStr,
+					    s2.ByteSizeLong());
 	LOG_INFO << "reply type:" << reply->type;
 	freeReplyObject(reply);
 
@@ -258,10 +290,9 @@ void test_protobuf_redis() {
 	for (uint32_t i = 0; i < reply_len; i++) {
 		struct redisReply* tmp_reply = reply->element[ i ];
 		StuInfo		   tmpStuInfo;
-		if (tmpStuInfo.ParseFromArray(tmp_reply->str, tmp_reply->len))
-			;
+		if (!tmpStuInfo.ParseFromArray(tmp_reply->str, tmp_reply->len))
+			LOG_ERROR << "parse error";
 		LOG_INFO << tmpStuInfo.stuid() << "," << tmpStuInfo.passwd();
-		else LOG_ERROR << "parse error";
 		freeReplyObject(tmp_reply);
 	}
 }

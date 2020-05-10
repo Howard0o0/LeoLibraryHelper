@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/stuPool.cc.o"
   "/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/student.cc.o"
   "/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/util.cc.o"
+  "/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc" "/home/howard/work/LeoLibraryHelper/cmake/CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/publicUtil/redisTool.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,6 +26,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../third-party-libs/rapidJson/include"
   "../third-party-libs/hiredis/include"
   "../third-party-libs/protobuf/include"
+  "../src/publicUtil"
+  "../src/autoReservate"
   )
 
 # Targets to which this target links.
