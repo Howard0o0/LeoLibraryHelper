@@ -263,6 +263,7 @@ CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate
 CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o
  ../src/publicUtil/redisTool.h
  ../src/publicUtil/stuInfo.pb.h
+ ../src/publicUtil/timer.h
  ../third-party-libs/curl/include/curl/curl.h
  ../third-party-libs/curl/include/curl/curlver.h
  ../third-party-libs/curl/include/curl/easy.h

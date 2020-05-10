@@ -54,6 +54,22 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
+../src/publicUtil/timer.h
+atomic
+-
+chrono
+-
+condition_variable
+-
+functional
+-
+memory
+-
+mutex
+-
+thread
+-
+
 ../third-party-libs/curl/include/curl/curl.h
 curlver.h
 ../third-party-libs/curl/include/curl/curlver.h
@@ -409,6 +425,8 @@ redisTool.h
 /home/howard/work/LeoLibraryHelper/src/autoReservate/redisTool.h
 stuInfo.pb.h
 /home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.h
+timer.h
+/home/howard/work/LeoLibraryHelper/src/autoReservate/timer.h
 hiredis/hiredis.h
 /home/howard/work/LeoLibraryHelper/src/autoReservate/hiredis/hiredis.h
 httpRequest.h

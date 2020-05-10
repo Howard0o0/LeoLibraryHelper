@@ -12,9 +12,10 @@ int main() {
 	// test_multiThread();
 	// test_multiReservate();
 	// test_redis();
-	test_redisTool();
 	// test_protobuf();
 	// test_protobuf_redis();
+	// test_redisTool();
+	test_timer();
 
 	return 0;
 }

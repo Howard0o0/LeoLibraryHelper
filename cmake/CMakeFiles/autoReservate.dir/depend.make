@@ -262,6 +262,7 @@ CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate
 
 CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o: ../src/publicUtil/redisTool.h
 CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o: ../src/publicUtil/stuInfo.pb.h
+CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o: ../src/publicUtil/timer.h
 CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o: ../third-party-libs/curl/include/curl/curl.h
 CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o: ../third-party-libs/curl/include/curl/curlver.h
 CMakeFiles/autoReservate.dir/home/howard/work/LeoLibraryHelper/src/autoReservate/mainTest.cc.o: ../third-party-libs/curl/include/curl/easy.h
