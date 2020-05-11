@@ -9,6 +9,7 @@ endif()
 set (MUDUO_PATH "${CMAKE_SOURCE_DIR}/third-party-libs/muduo")
 set (CURL_PATH "${CMAKE_SOURCE_DIR}/third-party-libs/curl")
 set(THIRD_LIBS_PATH "${CMAKE_SOURCE_DIR}/third-party-libs")
+add_definitions(-std=c++11)
 
 set(CXX_FLAGS
  -g
