@@ -15,7 +15,8 @@ int main() {
 	// test_protobuf();
 	// test_protobuf_redis();
 	// test_redisTool();
-	test_timer();
+	// test_timer();
+	test_timerReservate();
 
 	return 0;
 }

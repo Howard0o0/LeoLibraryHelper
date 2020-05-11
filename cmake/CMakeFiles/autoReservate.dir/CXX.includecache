@@ -427,6 +427,8 @@ stuInfo.pb.h
 /home/howard/work/LeoLibraryHelper/src/autoReservate/stuInfo.pb.h
 timer.h
 /home/howard/work/LeoLibraryHelper/src/autoReservate/timer.h
+functional
+-
 hiredis/hiredis.h
 /home/howard/work/LeoLibraryHelper/src/autoReservate/hiredis/hiredis.h
 httpRequest.h

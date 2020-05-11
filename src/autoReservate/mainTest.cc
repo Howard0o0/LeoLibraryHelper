@@ -4,6 +4,7 @@
 #include "redisTool.h"
 #include "stuInfo.pb.h"
 #include "timer.h"
+#include <functional>
 extern "C" {
 #include "hiredis/hiredis.h"
 }
@@ -41,13 +42,6 @@ void test_multiThread() {
 	pool.run(boost::bind(print));
 	pool.stop();
 	pool.run(std::bind(print2));
-}
-// StuPool g_stuPool;
-void taskReservate() {
-	//    Student* stu = NULL;
-	//    while ((stu = g_stuPool.getStudent()) != NULL) {
-	// 	   LOG_INFO << stu->getStuId() << ":" << stu->reservate();
-	//    }
 }
 void test_multiReservate() {
 
@@ -141,10 +135,6 @@ void test_redisTool() {
 		LOG_INFO << (*it).stuid() << "," << (*it).passwd();
 }
 
-// void test_timerReservate(){
-
-// }
-
 void test_protobuf() {
 	GOOGLE_PROTOBUF_VERIFY_VERSION;
 	StuInfo s1;
@@ -171,18 +161,18 @@ void test_protobuf_redis() {
 	s1.set_passwd("17871X");
 	s1.set_roomid(101);
 	s1.set_seatno(6);
-	s1.set_starttime("540");
-	s1.set_endtime("600");
-	s1.set_date("2020-05-10");
+	s1.set_starttime("1260");
+	s1.set_endtime("1320");
+	s1.set_date("2020-05-11");
 
 	StuInfo s2;
 	s2.set_stuid("2016301110055");
 	s2.set_passwd("173722");
 	s2.set_roomid(101);
 	s2.set_seatno(8);
-	s2.set_starttime("540");
-	s2.set_endtime("600");
-	s2.set_date("2020-05-10");
+	s2.set_starttime("1260");
+	s2.set_endtime("1320");
+	s2.set_date("2020-05-11");
 
 	char serializedStr[ 512 ];
 	s1.SerializeToArray(serializedStr, s1.ByteSizeLong());
@@ -230,4 +220,28 @@ void test_protobuf_redis() {
 void test_timer() {
 	Timer timer;
 	timer.SyncWait(5000, print2);
+}
+
+void test_timerReservate() {
+
+	RedisTool rt("127.0.0.1", 9900, "howard5279");
+	LOG_INFO << "connect:" << rt.connect();
+
+	std::vector< StuInfo > stuInfoUnion;
+	bool		       res = rt.setGet("tommorrow", stuInfoUnion);
+	if (!res)
+		return;
+	LOG_INFO << "got set";
+
+	StuPool stuPool;
+	for (auto it = stuInfoUnion.begin(); it != stuInfoUnion.end(); it++) {
+		stuPool.addStu(Student((*it).stuid(), (*it).passwd(), (*it).seatno(),
+				       (*it).roomid(), (*it).starttime(), (*it).endtime(),
+				       (*it).date()));
+	}
+	stuPool.loginAndPresetSeatId();
+
+	LOG_INFO << "login and preset seatId done";
+	// Timer t;
+	// t.SyncWait(5000, std::bind(&StuPool::reservate, &stuPool));
 }
