@@ -48,11 +48,10 @@ bool RedisTool::setGet(std::string key, std::vector< StuInfo >& stuInfoUnion) {
 		LOG_ERROR << rdsRpl.getReply()->str;
 		return false;
 	}
-	for (uint32_t i = 0; i < rdsRpl.getReply()->elements; i++) {
-		RedisRpl tmpReply(rdsRpl.getReply()->element[ i ]);
-		StuInfo	 tmpStuInfo;
-		if (!tmpStuInfo.ParseFromArray(tmpReply.getReply()->str,
-					       tmpReply.getReply()->len)) {
+	for (size_t i = 0; i < rdsRpl.getReply()->elements; i++) {
+		redisReply* tmpReply(rdsRpl.getReply()->element[ i ]);
+		StuInfo	    tmpStuInfo;
+		if (!tmpStuInfo.ParseFromArray(tmpReply->str, tmpReply->len)) {
 			LOG_ERROR << "parse error";
 			return false;
 		}

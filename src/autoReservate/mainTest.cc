@@ -120,7 +120,7 @@ void test_redisTool() {
 	s2.set_stuid("2016301110055");
 	s2.set_passwd("173722");
 	s2.set_roomid(101);
-	s2.set_seatno(6);
+	s2.set_seatno(8);
 	s2.set_starttime("540");
 	s2.set_endtime("600");
 	s2.set_date("2020-05-10");
@@ -160,7 +160,7 @@ void test_protobuf_redis() {
 	s1.set_stuid("2019282110139");
 	s1.set_passwd("17871X");
 	s1.set_roomid(101);
-	s1.set_seatno(6);
+	s1.set_seatno(14);
 	s1.set_starttime("1260");
 	s1.set_endtime("1320");
 	s1.set_date("2020-05-11");
@@ -169,7 +169,7 @@ void test_protobuf_redis() {
 	s2.set_stuid("2016301110055");
 	s2.set_passwd("173722");
 	s2.set_roomid(101);
-	s2.set_seatno(8);
+	s2.set_seatno(12);
 	s2.set_starttime("1260");
 	s2.set_endtime("1320");
 	s2.set_date("2020-05-11");
@@ -242,6 +242,6 @@ void test_timerReservate() {
 	stuPool.loginAndPresetSeatId();
 
 	LOG_INFO << "login and preset seatId done";
-	// Timer t;
-	// t.SyncWait(5000, std::bind(&StuPool::reservate, &stuPool));
+	Timer t;
+	t.SyncWait(5000, std::bind(&StuPool::reservate, &stuPool));
 }
