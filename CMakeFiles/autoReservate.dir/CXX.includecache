@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/zh/Downloads/LeoLibraryHelper/src/autoReservate/mainReservate.cc
+mainTest.h
+/home/zh/Downloads/LeoLibraryHelper/src/autoReservate/mainTest.h
+muduo/base/Logging.h
+/home/zh/Downloads/LeoLibraryHelper/src/autoReservate/muduo/base/Logging.h
+LibServer.h
+/home/zh/Downloads/LeoLibraryHelper/src/autoReservate/LibServer.h
+
+/home/zh/Downloads/LeoLibraryHelper/src/autoReservate/mainTest.h
+
 /home/zh/Downloads/LeoLibraryHelper/src/libServer/LibServer.cpp
 muduo/net/http/HttpServer.h
 /home/zh/Downloads/LeoLibraryHelper/src/libServer/muduo/net/http/HttpServer.h
@@ -45,6 +55,20 @@ redisTool.h
 /home/zh/Downloads/LeoLibraryHelper/src/libServer/redisTool.h
 stuInfo.pb.h
 /home/zh/Downloads/LeoLibraryHelper/src/libServer/stuInfo.pb.h
+
+src/libServer/LibServer.h
+muduo/net/http/HttpServer.h
+src/libServer/muduo/net/http/HttpServer.h
+muduo/net/http/HttpRequest.h
+src/libServer/muduo/net/http/HttpRequest.h
+muduo/net/http/HttpResponse.h
+src/libServer/muduo/net/http/HttpResponse.h
+muduo/net/EventLoop.h
+src/libServer/muduo/net/EventLoop.h
+redisTool.h
+src/libServer/redisTool.h
+stuInfo.pb.h
+src/libServer/stuInfo.pb.h
 
 src/publicUtil/redisTool.h
 hiredis/hiredis.h

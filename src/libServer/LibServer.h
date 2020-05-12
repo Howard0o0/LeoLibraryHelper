@@ -33,7 +33,11 @@ private:
     void onRequest(const muduo::net::HttpRequest& req,
                     muduo::net::HttpResponse* resp);
     StuInfo HttpParesr(const std::string &query);
-    
+    void showHttpRequest(const muduo::net::HttpRequest &req);
+    void funcGet(muduo::net::HttpResponse* resp, StuInfo &stu);
+    void funcPost(muduo::net::HttpResponse* resp, StuInfo &stu);
+    void funcError(muduo::net::HttpResponse* resp);
+
     muduo::net::EventLoop loop_;
     muduo::net::HttpServer server_;
     RedisTool redis_;
