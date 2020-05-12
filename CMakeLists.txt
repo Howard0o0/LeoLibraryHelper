@@ -60,15 +60,17 @@ include_directories(${THIRD_LIBS_PATH}/hiredis/include)
 include_directories(${THIRD_LIBS_PATH}/protobuf/include)
 include_directories(${CMAKE_SOURCE_DIR}/src/publicUtil)
 include_directories(${CMAKE_SOURCE_DIR}/src/autoReservate)
+include_directories(${CMAKE_SOURCE_DIR}/src/libServer)
 
-link_directories(${CURL_PATH}/lib ${THIRD_LIBS_PATH}/hiredis/lib ${THIRD_LIBS_PATH}/protobuf/lib)
+link_directories(${MUDUO_PATH}/lib ${CURL_PATH}/lib ${THIRD_LIBS_PATH}/hiredis/lib ${THIRD_LIBS_PATH}/protobuf/lib)
 
 aux_source_directory(${CMAKE_SOURCE_DIR}/src/autoReservate SRCS_AUTORESERVATE)
 aux_source_directory(${CMAKE_SOURCE_DIR}/src/publicUtil SRCS_PUBLICUTIL)
+aux_source_directory(${CMAKE_SOURCE_DIR}/src/libServer SRCS_LIBSERVER)
 
-add_executable(autoReservate ${SRCS_AUTORESERVATE} ${SRCS_PUBLICUTIL}) 
+add_executable(autoReservate ${SRCS_AUTORESERVATE} ${SRCS_PUBLICUTIL} ${SRCS_LIBSERVER}) 
 
-target_link_libraries(autoReservate ${muduo_net} ${muduo_base} curl pthread rt hiredis protobuf)
+target_link_libraries(autoReservate libmuduo_http.a ${muduo_net} ${muduo_base} curl pthread rt hiredis protobuf)
 
 
 

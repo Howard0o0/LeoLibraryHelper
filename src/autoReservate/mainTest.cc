@@ -105,7 +105,7 @@ void test_redis() {
 	// 	LOG_INFO << reply->element[ i ]->str;
 }
 void test_redisTool() {
-	RedisTool rt("127.0.0.1", 9900, "howard5279");
+	RedisTool rt("127.0.0.1", 6379, "");
 	LOG_INFO << "connect:" << rt.connect();
 
 	StuInfo s1;

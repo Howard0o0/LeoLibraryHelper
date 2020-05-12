@@ -1,4 +1,4 @@
-# Install script for directory: /home/howard/work/LeoLibraryHelper
+# Install script for directory: /home/zh/Downloads/LeoLibraryHelper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/howard/work/LeoLibraryHelper/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zh/Downloads/LeoLibraryHelper/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

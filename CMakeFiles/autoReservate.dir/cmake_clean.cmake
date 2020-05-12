@@ -7,10 +7,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/autoReservate.dir/src/autoReservate/stuPool.cc.o"
   "CMakeFiles/autoReservate.dir/src/autoReservate/student.cc.o"
   "CMakeFiles/autoReservate.dir/src/autoReservate/util.cc.o"
+  "CMakeFiles/autoReservate.dir/src/libServer/LibServer.cpp.o"
   "CMakeFiles/autoReservate.dir/src/publicUtil/redisTool.cc.o"
   "CMakeFiles/autoReservate.dir/src/publicUtil/stuInfo.pb.cc.o"
-  "autoReservate.pdb"
   "autoReservate"
+  "autoReservate.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
