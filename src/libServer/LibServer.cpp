@@ -33,10 +33,10 @@ void LibServer::onRequest(const muduo::net::HttpRequest& req,
 {
 	showHttpRequest(req);
 
-	if(req.methodString() == "GET"){
+	if(req.methodString() == "GET" && req.query().size()){
 		StuInfo stu = HttpParesr(req.query());
 		funcGet(resp, stu);
-	}else if(req.methodString() == "POST"){
+	}else if(req.methodString() == "POST" && req.query().size()){
 		StuInfo stu = HttpParesr(req.query());
 		funcPost(resp, stu);
 	}else{
