@@ -1,16 +1,12 @@
 # dependency:
-openssl
+* openssl
+* boost
 
-boost
 
+# how to build 
+```
+cd LeoLibraryHelper
+cmake . && make -j4
+```
 
-# how to build && run
-cd cmake
-
-make -j4 
-
-./bin/{your app}
-
-# CMakeLists.txt
-cmake/CmakeLists.txt
 
